@@ -51,6 +51,11 @@ Senha: secret_sauce
 - CEP: 12345
 
 
+4.Finalização
+- Valida se aparece a mensagem: Thank you for your order!
+
+
+
 
 
 - <img width="742" height="272" alt="Salvar para o teste" src="https://github.com/user-attachments/assets/555bae87-f66f-4515-b59d-024e0dfa5991" />
@@ -58,5 +63,4 @@ Senha: secret_sauce
 
 
 
-4.Finalização
-- Valida se aparece a mensagem: Thank you for your order!
+
