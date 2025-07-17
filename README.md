@@ -50,5 +50,13 @@ Senha: secret_sauce
 - Sobrenome: Silva
 - CEP: 12345
 
+
+
+
+- <img width="742" height="272" alt="Salvar para o teste" src="https://github.com/user-attachments/assets/555bae87-f66f-4515-b59d-024e0dfa5991" />
+
+
+
+
 4.Finalização
 - Valida se aparece a mensagem: Thank you for your order!
