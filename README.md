@@ -26,11 +26,11 @@ Certifique-se de ter instalado:
 - Entre no Projeto
 
 3. Execute os testes:
-robot tests/compra_completa.robot
+-robot tests/compra_completa.robot
 
 4. Visualize os relatórios em:
-results/report.html – Resumo visual do teste
-results/log.html – Detalhes da execução passo a passo
+-results/report.html – Resumo visual do teste
+-results/log.html – Detalhes da execução passo a passo
 
 
 
