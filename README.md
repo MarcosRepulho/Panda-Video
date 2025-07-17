@@ -12,8 +12,8 @@ Este repositório contém testes automatizados desenvolvidos com Robot Framework
 🛠️ Requisitos
 Certifique-se de ter instalado:
 
-pip install robotframework
-pip install robotframework-seleniumlibrary
+- pip install robotframework
+- pip install robotframework-seleniumlibrary
 
 
 
@@ -22,13 +22,13 @@ pip install robotframework-seleniumlibrary
 
 🧪 Como Executar os Testes
 1. Clone o repositório:
-git clone https://github.com/seu-usuario/sauce_demo_tests.git 
-cd sauce_demo_tests
+- git clone https://github.com/MarcosRepulho/Panda-Video.git
+- Entre no Projeto
 
-2. Execute os testes:
+3. Execute os testes:
 robot tests/compra_completa.robot
 
-3. Visualize os relatórios em:
+4. Visualize os relatórios em:
 results/report.html – Resumo visual do teste
 results/log.html – Detalhes da execução passo a passo
 
