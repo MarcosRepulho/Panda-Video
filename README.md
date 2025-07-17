@@ -8,25 +8,17 @@ Este repositório contém testes automatizados desenvolvidos com Robot Framework
 - O objetivo é demonstrar a capacidade de automação de interface web, além de servir como base para futuras implementações e integrações.
 
 
-📁 Estrutura do Projeto
-
-sauce_demo_tests/
-│
-├── tests/                  # Arquivos .robot com os casos de teste
-│   └── compra_completa.robot  # Teste principal de login + carrinho + checkout
-│
-├── resources/              # Arquivos de recursos 
-│   └── elementos.robot     # Variáveis de ambiente e dados de teste
-│
-├── results/                # Pasta gerada após execução dos testes 
-│
-└── README.md               
 
 🛠️ Requisitos
 Certifique-se de ter instalado:
 
 pip install robotframework
 pip install robotframework-seleniumlibrary
+
+
+
+
+
 
 🧪 Como Executar os Testes
 1. Clone o repositório:
@@ -39,6 +31,10 @@ robot tests/compra_completa.robot
 3. Visualize os relatórios em:
 results/report.html – Resumo visual do teste
 results/log.html – Detalhes da execução passo a passo
+
+
+
+
 
 
 ✅ Fluxo Automatizado
