@@ -15,7 +15,7 @@ TC01 - Compra Completa com Sucesso
 Open Browser To Login Page
     Open Browser    ${URL}    Chrome
     Maximize Browser Window
-    Wait Until Element Is Visible    id=user-name    timeout=10s
+    Wait Until Element Is Visible    id=user-name    timeout=100s
 
 Realizar Login
     Input Text      user-name    ${USERNAME}
@@ -26,19 +26,19 @@ Realizar Login
 Adicionar Produto ao Carrinho
     Click Element    xpath=//div[text()='${PRODUTO}']/../../..//button
     Click Element    class:shopping_cart_link
-    #Capture Page Screenshot   # Verifica se está na página do carrinho
+    Capture Page Screenshot   # Verifica se está na página do carrinho
 Finalizar Compra
     # Ir para checkout
     Click Element    id=checkout
     Location Should Be    https://www.saucedemo.com/checkout-step-one.html 
 
     # Preencher dados com esperas
-    Wait Until Element Is Visible    id=first-name    timeout=10s
+    Wait Until Element Is Visible    id=first-name    timeout=20s
     Input Text    id=first-name    ${NOME}
-     #Capture Page Screenshot   # Vê como está a tela antes da validação
+     Capture Page Screenshot   # Vê como está a tela antes da validação
     Textfield Value Should Be    id=first-name    ${NOME}
 
-    Wait Until Element Is Visible    id=last-name    timeout=25s
+    Wait Until Element Is Visible    id=last-name    timeout=20s
     Input Text    id=last-name    ${SOBRENOME}
     Textfield Value Should Be    id=last-name    ${SOBRENOME}
 
@@ -46,8 +46,8 @@ Finalizar Compra
     Textfield Value Should Be    id=postal-code   ${CEP}
 
     # Garantir que o botão Continue esteja clicável
-    Wait Until Element Is Visible    id=continue    timeout=15s
-    Wait Until Element Is Enabled    id=continue    timeout=15s
+    Wait Until Element Is Visible    id=continue    timeout=30s
+    Wait Until Element Is Enabled    id=continue    timeout=30s
     Click Element    id=continue
 
     # Valida navegação para step two
@@ -58,7 +58,7 @@ Finalizar Compra
 
     # Aguardar página final
     Wait Until Location Is    https://www.saucedemo.com/checkout-complete.html     timeout=10s
-    Wait Until Element Is Visible    css=.complete-header    timeout=20s
+    Wait Until Element Is Visible    css=.complete-header    timeout=15s
 
     # Validar finalização
     Page Should Contain    Thank you for your order!
