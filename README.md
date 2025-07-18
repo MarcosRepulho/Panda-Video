@@ -29,8 +29,8 @@ Certifique-se de ter instalado:
 - robot tests/compra_completa.robot
 
 4. Visualize os relatórios em:
--results/report.html – Resumo visual do teste
--results/log.html – Detalhes da execução passo a passo
+- results/report.html – Resumo visual do teste
+- results/log.html – Detalhes da execução passo a passo
 
 
 
@@ -50,5 +50,17 @@ Senha: secret_sauce
 - Sobrenome: Silva
 - CEP: 12345
 
+
 4.Finalização
 - Valida se aparece a mensagem: Thank you for your order!
+
+
+
+
+
+- <img width="742" height="272" alt="Salvar para o teste" src="https://github.com/user-attachments/assets/555bae87-f66f-4515-b59d-024e0dfa5991" />
+
+
+
+
+
